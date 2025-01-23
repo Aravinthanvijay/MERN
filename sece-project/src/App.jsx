@@ -9,6 +9,10 @@ import Login from "./components/FunctionalComponents/Login"
 import UseState from "./components/FunctionalComponents/Hooks/UseState"
 import UseEffect from "./components/FunctionalComponents/Hooks/UseEffect"
 import UseEffectAPI from "./components/FunctionalComponents/Hooks/UseEffectAPI"
+import UseReducer from "./components/FunctionalComponents/Hooks/UseReducer.jsx"
+import UseRef from "./components/FunctionalComponents/Hooks/UseRef.jsx"
+import UseMemo from "./components/FunctionalComponents/Hooks/UseMemo.jsx"
+import UseCallback from "./components/FunctionalComponents/Hooks/UseCallback.jsx"
 function App() {
   return (
      <BrowserRouter>
@@ -24,6 +28,11 @@ function App() {
           <Route path="/usestate" element={<UseState/>}></Route>
           <Route path="/useeffect" element={<UseEffect/>}></Route>
           <Route path="/useeffectapi" element={<UseEffectAPI/>}></Route>
+          <Route path="/usereducer" element={<UseReducer/>}></Route>
+          <Route path="/useref" element={<UseRef/>}></Route>
+          <Route path="/usememo" element={<UseMemo/>}></Route>
+          <Route path="/callback" element={<UseCallback/>}></Route>
+          
           
     </Routes>
     
