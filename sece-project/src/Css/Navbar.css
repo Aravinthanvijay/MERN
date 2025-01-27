@@ -2,14 +2,14 @@ ol{
     display:flex;
     justify-content: space-between;
     text-decoration: none;
-    
     list-style-type: none;
     margin:0; 
     padding:10px;
-    background-color: rgb(22, 24, 27);
-    color:rgb(252, 235, 235);
+    background-color: rgb(177, 106, 224);
+    color:rgb(208, 60, 60);
     font-size: large;
     font-weight: bold;
+    text-decoration: none;
 }
 .link{
     text-decoration: none;
@@ -18,7 +18,7 @@ ol{
 }
 .link:hover{
 
-    background-color:rgb(191, 126, 126);
+    background-color:rgb(239, 233, 233);
     color: rgb(9, 13, 135);
     border-radius: 10px;
 }
@@ -33,18 +33,22 @@ ol{
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: rgb(33, 214, 208);
+    background-color: rgb(111, 251, 108);
     width: 200px;
     display: block;
+    text-decoration: none;
     border-radius: 5px;
 }
 .dropdown-menu li {
     padding: 10px;
-}
-.dropdown-menu{
-    display:none;
+    text-decoration: none;
 }
 .dropdown:hover .dropdown-menu {
-    background-color: rgb(207, 90, 90);
+    background-color: rgb(186, 90, 127);
     display: block;
+    text-decoration: none;
+}
+.l:hover{
+background-color: brown;
+
 }
